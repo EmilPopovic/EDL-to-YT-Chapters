@@ -1,4 +1,4 @@
-### Quick walkthrough
+# Quick walkthrough
 
 This is a simple scirpt made to convert DaVinci Resolve timeline markers exported to EDL to a YouTube chapters/timestamps friendly format. This script may or may not work for exports from other editing softwares.
 
@@ -31,6 +31,27 @@ The output file will look like:
 20:09 Name of the second marker
 1:04:42 And there is a third one?
 ```
+
+# Using the GUI
+
+To use the GUI, start app.py or the packaged version.
+
+You will see something similar to this:
+
+![image](https://github.com/user-attachments/assets/b902d571-f043-4686-b196-7c48f805ee4d)
+
+After dragging and dropping or selecting the file, its path will be shown. You can deselect it or select another one right away.
+
+![image](https://github.com/user-attachments/assets/03d038f2-64fd-4d6f-b961-6863c1f615b1)
+
+It is possible to preview the file and copy the exported timestamps without saving it to a text file, though that is an option too.
+
+![image](https://github.com/user-attachments/assets/9c272ea5-e2d7-4de0-8629-9a9ef6660427)
+
+
+# Using the CLI script
+
+To use from terminal, simply start edl_to_yt.py.
 
 When starting, the script will ask you for the input and output file paths:
 

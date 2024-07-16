@@ -9,9 +9,9 @@ from PySide6.QtWidgets import (
 )
 
 from preview_window import PreviewWindow
-from src.drag_drop_widget import DragDropWidget
-from src.title_label import TitleLabel
-from src.edl_to_yt import string_from_path
+from drag_drop_widget import DragDropWidget
+from title_label import TitleLabel
+from edl_to_yt import string_from_path
 
 
 class App(QMainWindow):
